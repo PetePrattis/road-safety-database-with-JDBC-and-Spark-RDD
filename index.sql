@@ -1,0 +1,9 @@
+create index accident_index_ai on accident_information (accident_index);
+create index accident_index_vi on vehicle_information (accident_index);
+create index date_index on accident_information (date);
+create index area_index on accident_information (in_urban_area);
+create index age_index on vehicle_information (age_band_of_driver);
+create index year_index on accident_information (year);
+create index road_class_index on accident_information (road_class);
+create index manufacturer_index on vehicle_information (manufacturer);
+create index accident_severity_index on accident_information (accident_severity);
